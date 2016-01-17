@@ -1,5 +1,5 @@
 {
-   "abstract" : "Short intro",
+   "abstract" : "Code coverage metrics, with history",
    "author" : [
       "Erik Carlsson <info@code301.com>"
    ],
@@ -93,7 +93,13 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.014000"
+            "DateTime" : "0",
+            "Dist::Zilla::App" : "5.000",
+            "File::Temp" : "0",
+            "File::chdir" : "0",
+            "JSON::MaybeXS" : "0",
+            "Path::Tiny" : "0",
+            "perl" : "5.010001"
          }
       },
       "test" : {

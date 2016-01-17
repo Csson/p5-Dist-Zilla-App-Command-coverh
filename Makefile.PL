@@ -2,21 +2,28 @@
 use strict;
 use warnings;
 
-use 5.014000;
+use 5.010001;
 
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Short intro",
+  "ABSTRACT" => "Code coverage metrics, with history",
   "AUTHOR" => "Erik Carlsson <info\@code301.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },
   "DISTNAME" => "Dist-Zilla-App-Command-coverh",
   "LICENSE" => "perl",
-  "MIN_PERL_VERSION" => "5.014000",
+  "MIN_PERL_VERSION" => "5.010001",
   "NAME" => "Dist::Zilla::App::Command::coverh",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "DateTime" => 0,
+    "Dist::Zilla::App" => "5.000",
+    "File::Temp" => 0,
+    "File::chdir" => 0,
+    "JSON::MaybeXS" => 0,
+    "Path::Tiny" => 0
+  },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
@@ -30,8 +37,14 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "DateTime" => 0,
+  "Dist::Zilla::App" => "5.000",
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
+  "File::Temp" => 0,
+  "File::chdir" => 0,
+  "JSON::MaybeXS" => 0,
+  "Path::Tiny" => 0,
   "Test::More" => "0.96"
 );
 

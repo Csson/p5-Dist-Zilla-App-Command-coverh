@@ -15,7 +15,13 @@ header:
 prereqs:
   runtime:
     requires:
-      - perl: 5.014000
+      - perl: 5.010001
+      - Dist::Zilla::App: 5.000
+      - File::chdir
+      - Path::Tiny
+      - File::Temp
+      - DateTime
+      - JSON::MaybeXS
 
 plugins:
   - +config: Author::CSSON
@@ -25,3 +31,7 @@ doctype: weaver
 
 plugins:
   - +config: Author::CSSON
+
+  - +extend_plugin: Badges
+    badge:
+     - coverage
