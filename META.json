@@ -116,7 +116,7 @@
    "provides" : {
       "Dist::Zilla::App::Command::coverh" : {
          "file" : "lib/Dist/Zilla/App/Command/coverh.pm",
-         "version" : "0.0001"
+         "version" : "0.0101"
       }
    },
    "release_status" : "stable",
@@ -131,6 +131,6 @@
          "web" : "https://github.com/Csson/p5-Dist-Zilla-App-Command-coverh"
       }
    },
-   "version" : "0.0001"
+   "version" : "0.0101"
 }
 

@@ -2,11 +2,11 @@
 
 Dist::Zilla::App::Command::coverh - Code coverage metrics, with history
 
-![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh.svg?branch=master)](https://travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh) ![coverage 19.1%](https://img.shields.io/badge/coverage-19.1%-red.svg)
+![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh.svg?branch=master)](https://travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh) ![coverage 15.6%](https://img.shields.io/badge/coverage-15.6%-red.svg)
 
 # VERSION
 
-Version 0.0001, released 2016-01-17.
+Version 0.0101, released 2016-01-17.
 
 # SYNOPSIS
 

@@ -86,6 +86,7 @@ sub cover {
 
     $zilla->ensure_built_in($cover_dir);
     $self->zilla->run_tests_in($cover_dir);
+
     $self->log(join ' ' => @cover_command);
 
     {
