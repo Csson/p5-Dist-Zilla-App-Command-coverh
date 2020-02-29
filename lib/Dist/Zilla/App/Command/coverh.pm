@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::App::Command::coverh;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 # ABSTRACT: Code coverage metrics, with history
 # AUTHORITY
 
