@@ -2,11 +2,19 @@
 
 Dist::Zilla::App::Command::coverh - Code coverage metrics, with history
 
-![Requires Perl 5.10.1+](https://img.shields.io/badge/perl-5.10.1+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh.svg?branch=master)](https://travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh) ![coverage 15.6%](https://img.shields.io/badge/coverage-15.6%-red.svg)
+<div>
+    <p>
+    <img src="https://img.shields.io/badge/perl-5.10.1+-blue.svg" alt="Requires Perl 5.10.1+" />
+    <a href="https://travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh"><img src="https://api.travis-ci.org/Csson/p5-Dist-Zilla-App-Command-coverh.svg?branch=master" alt="Travis status" /></a>
+    <a href="http://cpants.cpanauthors.org/release/CSSON/Dist-Zilla-App-Command-coverh-0.0101"><img src="http://badgedepot.code301.com/badge/kwalitee/CSSON/Dist-Zilla-App-Command-coverh/0.0101" alt="Distribution kwalitee" /></a>
+    <a href="http://matrix.cpantesters.org/?dist=Dist-Zilla-App-Command-coverh%200.0101"><img src="http://badgedepot.code301.com/badge/cpantesters/Dist-Zilla-App-Command-coverh/0.0101" alt="CPAN Testers result" /></a>
+    <img src="https://img.shields.io/badge/coverage-19.1%-red.svg" alt="coverage 19.1%" />
+    </p>
+</div>
 
 # VERSION
 
-Version 0.0101, released 2016-01-17.
+Version 0.0101, released 2020-02-29.
 
 # SYNOPSIS
 
@@ -45,7 +53,7 @@ Only the latest run of `coverh` for a certain version number is kept in the log 
 
 # ACKNOWLEDGEMENTS
 
-Some parts where borrowed from [Dist::Zilla::App::Command::cover](https://metacpan.org/pod/Dist::Zilla::App::Command::cover).
+Some parts were borrowed from [Dist::Zilla::App::Command::cover](https://metacpan.org/pod/Dist::Zilla::App::Command::cover).
 
 # SOURCE
 

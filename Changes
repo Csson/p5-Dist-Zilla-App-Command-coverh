@@ -6,12 +6,14 @@ Revision history for Dist-Zilla-App-Command-coverh
  [Bug Fixes]
 
  [Documentation]
+ - Fixed typo in POD
 
  [Enhancements]
 
  [New Features]
 
  [Other Changes]
+ - Built with current Dist::Zilla config
 
  [Requirements]
 
