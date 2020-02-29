@@ -4,8 +4,9 @@ use warnings;
 
 package Dist::Zilla::App::Command::coverh;
 
-# VERSION
+our $VERSION = '0.0101';
 # ABSTRACT: Code coverage metrics, with history
+# AUTHORITY
 
 use Dist::Zilla::App -command;
 
@@ -22,7 +23,7 @@ sub execute {
 
     require File::chdir;
     require Path::Tiny;
-    import Path::Tiny;
+    Path::Tiny->import;
     require File::Temp;
     require DateTime;
     require JSON::MaybeXS;
@@ -160,6 +161,6 @@ Only the latest run of C<coverh> for a certain version number is kept in the log
 
 =head1 ACKNOWLEDGEMENTS
 
-Some parts where borrowed from L<Dist::Zilla::App::Command::cover>.
+Some parts were borrowed from L<Dist::Zilla::App::Command::cover>.
 
 =cut
